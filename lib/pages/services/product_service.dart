@@ -5,7 +5,6 @@ import 'package:image_picker/image_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:myapp/models/product_model.dart';
-//import '../models/product_model.dart';
 
 class ProductService with ChangeNotifier {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

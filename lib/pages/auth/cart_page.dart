@@ -1,10 +1,3 @@
-// import 'package:apps/models/cart_item_model.dart';
-// import 'package:apps/models/chat_model.dart';
-// import 'package:apps/models/transaction_model.dart';
-// import 'package:apps/pages/transaction/payment_page.dart';
-// import 'package:apps/services/cart_service.dart';
-// import 'package:apps/services/chat_services.dart';
-// import 'package:apps/services/order_service.dart';
 import 'package:flutter/material.dart';
 import 'package:myapp/models/cart_item_model.dart';
 import 'package:myapp/models/transactions_model.dart';
@@ -14,13 +7,6 @@ import 'package:myapp/pages/transaction/payment_page.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-// import '../models/cart_item_model.dart';
-// import '../models/transaction_model.dart';
-// import '../models/chat_model.dart';
-// import '../services/cart_service.dart';
-// import '../services/order_service.dart';
-// import '../services/chat_service.dart';
-// import 'payment_page.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({super.key});

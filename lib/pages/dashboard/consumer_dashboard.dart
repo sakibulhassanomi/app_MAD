@@ -6,9 +6,6 @@ import 'package:provider/provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../../models/product_model.dart';
 import '../../models/cart_item_model.dart';
-// import '../../services/product_service.dart';
-// import '../../services/cart_service.dart';
-// import '../../widgets/product_grid_view.dart';
 import '../auth/cart_page.dart';
 import '../auth/login_page.dart';
 

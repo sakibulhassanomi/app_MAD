@@ -14,8 +14,9 @@ class ProfileTab extends StatefulWidget {
   State<ProfileTab> createState() => _ProfileTabState();
 }
 
+
 class _ProfileTabState extends State<ProfileTab> {
-  File? _image; // Store the selected image
+  File? _image; 
 
   Future<void> _pickImage(ImageSource source) async {
     final pickedFile = await ImagePicker().pickImage(source: source);
@@ -23,7 +24,7 @@ class _ProfileTabState extends State<ProfileTab> {
       setState(() {
         _image = File(pickedFile.path);
       });
-      // TODO: Upload image to Firebase Storage and update user profile
+    
     }
   }
 
