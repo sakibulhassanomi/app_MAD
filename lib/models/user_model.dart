@@ -7,7 +7,7 @@ class UserModel {
   final String phone;
   final String district;
   final String village;
-  final String role; // 'admin', 'farmer', 'customer'
+  final String role; // 'admin', 'farmer', 'customer',
   final String? imageUrl;
   final DateTime createdAt;
 
