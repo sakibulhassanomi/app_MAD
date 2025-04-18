@@ -14,7 +14,7 @@ class TransactionModel {
   final String? buyerName;
   final String? sellerName;
   final String? paymentMethod;
-  final String? paymentPhone;  // Added this field
+  final String? paymentPhone;  // 
   final String? paymentTrxId;  // Added this field
   final String? deliveryAddress;
   final String? notes;
