@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/models/transactions_model.dart';
 import 'package:myapp/pages/services/transaction_service.dart';
-// import 'package:apps/models/transaction_model.dart';
-// import 'package:apps/services/transaction_service.dart';
-// import 'package:intl/intl.dart';
 
 class TransactionPage extends StatelessWidget {
   final String userId;

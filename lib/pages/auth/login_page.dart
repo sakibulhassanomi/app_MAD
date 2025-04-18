@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:myapp/pages/services/auth_service.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-//import '../../services/auth_service.dart';
 import '../../models/user_model.dart';
 import '../dashboard/consumer_dashboard.dart';
 import '../dashboard/admin_dashboard.dart';

@@ -1,23 +1,3 @@
-// import 'package:apps/admin/admin_product_management.dart';
-// import 'package:apps/pages/auth/cart_page.dart';
-// import 'package:apps/pages/auth/login_page.dart';
-// import 'package:apps/pages/auth/signup_page.dart';
-// import 'package:apps/pages/dashboard/admin_dashboard.dart';
-// import 'package:apps/pages/dashboard/consumer_dashboard.dart';
-// import 'package:apps/pages/marketplace/marketplace_tab.dart';
-// import 'package:apps/pages/product/product_list_page.dart';
-// import 'package:apps/pages/profile/edit_profile_page.dart';
-// import 'package:apps/pages/profile/view_profile_page.dart';
-// import 'package:apps/pages/transaction/bkash_payment.dart';
-// import 'package:apps/pages/transaction/nagad_payment.dart';
-// import 'package:apps/pages/transaction/payment_page.dart';
-// import 'package:apps/pages/transaction/transaction_page.dart';
-// import 'package:apps/services/auth_service.dart';
-// import 'package:apps/services/cart_service.dart';
-// import 'package:apps/services/chat_services.dart';
-// import 'package:apps/services/order_service.dart';
-// import 'package:apps/services/product_service.dart';
-// import 'package:apps/services/user_service.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -42,7 +22,7 @@ import 'package:myapp/pages/transaction/nagad_payment.dart';
 import 'package:myapp/pages/transaction/payment_page.dart';
 import 'package:myapp/pages/transaction/transaction_page.dart';
 import 'package:provider/provider.dart';
-//import 'models/transaction_model.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -170,7 +150,7 @@ class MyApp extends StatelessWidget {
         ),
         '/cart': (context) => const CartPage(),
         '/adminProducts': (context) => const AdminProductManagement(),
-        //'/MarketplaceTab': (context) => const MarketplaceTab(),
+        
       },
       onGenerateRoute: (settings) {
         switch (settings.name) {
